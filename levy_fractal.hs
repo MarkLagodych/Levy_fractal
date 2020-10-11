@@ -97,7 +97,8 @@ genLevy1 ((Point x1 y1) : (Point x2 y2) : ps) =
 
 
 
--- Make g generations of Levy fractal ps are first two points
+-- Make g generations of Levy fractal
+-- ps are first two points
 
 genLevy :: Int -> [Point] -> [Point]
 
